@@ -38,28 +38,65 @@ console.log(number1+number2);
 var price1 = 60;
 var price2 = 20;
 var total = price1 + price2;
-console.log(price1 + price2);
+console.log(total);
 
 var price1 = 60;
 var price2 = 20;
 var total = price1 - price2;
-console.log(price1 - price2);
+console.log(total);
 
 var price1 = 60;
 var price2 = 20;
 var total = price1 * price2;
-console.log(price1 * price2);
+console.log(total);
 
 var price1 = 60;
 var price2 = 20;
 var total = price1 / price2;
-console.log(price1 / price2);
+console.log(total);
 
 // vagsesh ber korte hole
 
 var price1 = 50;
 var price2 = 20;
 var total = price1 % price2;
-console.log(price1 % price2);
+console.log(total);
 
+
+// space a variable
+
+var price1 = "Justin";
+var price2 = "Bieber";
+var total = price1 + ' ' +price2;
+console.log(total);
+
+// 3 ta niome kono vornangso k punno songkha kora jay
+
+// Round
+// ciling
+// floor
+
+var number = 5.4444;
+var result = Math.round(number);
+console.log(result);
+
+var number = 5.4444;
+var result = Math.ceil(number);
+console.log(result);
+
+var number = 5.4444;
+var result = Math.floor(number);
+console.log(result);
+
+// lotary korte chaile
+
+var number = Math.random() * 100;
+var result = number
+console.log(result);
+
+// jodi round krte chai
+
+var number = Math.random() * 100;
+var result = Math.round(number)
+console.log(result);
 
