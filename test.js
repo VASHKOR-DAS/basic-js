@@ -33,5 +33,33 @@ var number2 = "15.5";
 number2 = parseFloat(number2)
 console.log(number1+number2);
 
+// jog biog gun vag vagsesh
+
+var price1 = 60;
+var price2 = 20;
+var total = price1 + price2;
+console.log(price1 + price2);
+
+var price1 = 60;
+var price2 = 20;
+var total = price1 - price2;
+console.log(price1 - price2);
+
+var price1 = 60;
+var price2 = 20;
+var total = price1 * price2;
+console.log(price1 * price2);
+
+var price1 = 60;
+var price2 = 20;
+var total = price1 / price2;
+console.log(price1 / price2);
+
+// vagsesh ber korte hole
+
+var price1 = 50;
+var price2 = 20;
+var total = price1 % price2;
+console.log(price1 % price2);
 
 
