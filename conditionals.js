@@ -34,3 +34,37 @@ if(biscuitsPrice != 12){
 else{
     console.log("Khali cha is better")
 }
+
+
+// multi-conditionals
+
+
+var jobPaiso = false;
+var savingAmount = 500000
+if(jobPaiso == true && savingAmount > 2000){
+    console.log("Aso patri khuji")
+}
+else{
+    console.log("Tor kopale biya nai");
+}
+
+var jobPaiso = true;
+var savingAmount = 500000
+if(jobPaiso == true && savingAmount < 500001){
+    console.log("Aso patri khuji")
+}
+else{
+    console.log("Tor kopale biya nai");
+}
+
+// js a or likhe ||
+
+var jobPaiso = false;
+var savingAmount = 500000
+if(jobPaiso == true || savingAmount < 500001){
+    console.log("Aso patri khuji")
+}
+else{
+    console.log("Tor kopale biya nai");
+}
+
