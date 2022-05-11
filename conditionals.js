@@ -68,3 +68,8 @@ else{
     console.log("Tor kopale biya nai");
 }
 
+
+// date dekhte chaile but ata time zone set kora nai
+
+var date = new Date()
+console.log(date);
