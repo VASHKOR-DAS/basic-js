@@ -57,3 +57,9 @@ friendsAge.push(18);
 friendsAge.push(19);
 console.log(friendsAge.length);
 
+// last er kono Element k ber korte hole .pop
+
+var friendsAge = [15, 17, 14, 16];
+console.log(friendsAge);
+friendsAge.pop();
+console.log(friendsAge);
