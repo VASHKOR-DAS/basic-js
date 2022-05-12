@@ -16,3 +16,5 @@ while (num < 15){
 //     console.log(num);
 // }
 
+
+// condition full-fill na howa porjonto while-loop choltei thakbe
