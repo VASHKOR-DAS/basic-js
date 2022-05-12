@@ -34,7 +34,7 @@ var friendsAge = [15, 17, 14, 16];
 var position = friendsAge.indexOf(18);
 console.log(position);
 
-// array er var er majhe kono element last a add korte chaile (.push)
+// array er var er majhe kono element last a add korte chaile .push
 
 var friendsAge = [15, 17, 14, 16];
 friendsAge.push(18);
@@ -57,7 +57,7 @@ friendsAge.push(18);
 friendsAge.push(19);
 console.log(friendsAge.length);
 
-// last er kono Element k ber korte hole (.pop)
+// last er kono Element k ber korte hole .pop
 
 var friendsAge = [15, 17, 14, 16];
 console.log(friendsAge);
