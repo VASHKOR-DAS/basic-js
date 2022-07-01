@@ -2,6 +2,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
             "name": "Launch Chrome",
             "request": "launch",
             "type": "chrome",
@@ -19,7 +33,7 @@
             "type": "pwa-node",
             "name": "Run Current File",
             "request": "launch",
-            "program": "${workspaceFolder}\\test.js"
+            "program": "${workspaceFolder}\\function-advance.js"
         }
     ]
 }
